@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 .insta{
-background-color: #dfc5c6;
+background-color: #FFFFFF;
 }
 .tpresencial{text-align: center;}
+.tmenu{    text-align: center;
+}
+
+
 *{
     margin: 0
     padding: 0;
@@ -13,7 +17,7 @@ background-color: #dfc5c6;
 body{
     width: 98.9%;
     height: 100vh;
-    background-color: #dfc5c6;
+    background-color: #FFFFFF;
 }
 .menu{
     width: 100%;
@@ -21,18 +25,18 @@ body{
     justify-content: space-around;
     align-items: center;
     height: 4rem;
-    padding: 3rem 0;
-    background:#691748;
+    padding: 0rem 0;
+    background:#FFFFFF;
 }
 .gif01{background-color: rgb(255,203,219);}
-.menu h2{color:white;}
+.menu h2{color:#595858;}
 ul{display:flex;}
 li{list-style:none;}
 ul li a {
     text-decoration: none;
     padding: 5px 1rem;
     margin: 0 10px;
-    color: rgb(254,254,254);
+    color: #595858;
     position: relative;
 }
 ul li a::before{
@@ -43,8 +47,8 @@ content: '';
     top: 0;
     left: 0;
     box-sizing: border-box;
-    border-top: 2px solid rgb(254,254,254);
-    border-left: 2px solid rgb(254,254,254);
+    border-top: 2px solid #BF705E;
+    border-left: 2px solid #BF705E;
     transition: all .4s;
 }
 
@@ -56,8 +60,8 @@ ul li a::after{
     bottom: 0;
     right: 0;
     box-sizing: border-box;
-    border-bottom: 2px solid rgb(254,254,254);
-    border-right: 2px solid rgb(254,254,254);
+    border-bottom: 2px solid #BF705E;
+    border-right: 2px solid #BF705E;
     transition: all .4s;
 }
 
@@ -84,7 +88,7 @@ ul li a:hover:after, ul li a:hover::before{
 /* contato INICIO */
 
 .cardcontato {
-  background-color: #dfc5c6;
+  background-color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
