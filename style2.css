@@ -1,24 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
+.insta{
+background-color: #dfc5c6;
+}
+.tpresencial{text-align: center;}
 *{
     margin: 0
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins',Sans-Serif;
 }
+
 body{
     width: 98.9%;
     height: 100vh;
-    background-color: rgb(254,254,254);
+    background-color: #dfc5c6;
 }
 .menu{
     width: 100%;
-    padding: 3rem 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 4rem;
-    background: rgb(217,134,149);
+    padding: 3rem 0;
+    background:#691748;
 }
 .gif01{background-color: rgb(255,203,219);}
 .menu h2{color:white;}
@@ -80,12 +84,12 @@ ul li a:hover:after, ul li a:hover::before{
 /* contato INICIO */
 
 .cardcontato {
-  background-color: #eecbed;
+  background-color: #dfc5c6;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  height: 100vh;
+  padding: 10px;
+  height: 35%;
 }
 
 form {
@@ -100,7 +104,7 @@ form {
 
 form h2 {
   text-align: center;
-  color: #e65b00;
+  color: black;
   margin-bottom: 20px;
 }
 
@@ -148,7 +152,7 @@ form button:hover {
 
 
 .container {
-  width: 1150px;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -162,6 +166,7 @@ form button:hover {
   padding:40px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  background-color:white;
 }
 
 .container .card:before {
@@ -182,15 +187,15 @@ form button:hover {
 }
 
 .container .card:nth-child(1):before {
-  background: #ff56ac;
+  background: #691748;
 }
 
 .container .card:nth-child(2):before {
-  background: #1bcaff;
+  background: #dfc5c6;
 }
 
 .container .card:nth-child(3):before {
-  background: #e33cff;
+  background: #f7e9e8;
 }
 
 .container .card div {
@@ -222,6 +227,7 @@ form button:hover {
   padding: 6px 10px;
   font-weight: 600;
   box-shadow: 0 2px 20px rgba(0,0,0,.05);
+  border-style: solid;
 }
 
 .container .card:hover div h2,
@@ -231,3 +237,30 @@ color: #fff;
  }
 
 /* FIIIIIIIIIIM CARDHOUVER */
+
+/* INICIO SOBRE MIM  */
+
+#sobremim {
+  display: inline-block;
+  position: relative;
+}
+
+#sobremim figcaption {
+  position: absolute;
+  top: 145px;
+  right: 200px;
+  font-size: 35px;
+  color: black;
+  font-family: 'Poppins',Sans-Serif;
+}
+
+#sobremim p {
+  position: absolute;
+  top: 250px;
+  right: 40px;
+  font-size: 20px;
+  color: black;
+  font-family: 'Poppins',Sans-Serif;
+}
+
+/* FIM SOBRE MIM  */
