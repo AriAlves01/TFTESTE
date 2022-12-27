@@ -248,10 +248,10 @@ color: #fff;
 #sobremim figcaption {
   position: absolute;
   top: 145px;
-  right: 200px;
-  font-size: 35px;
+  right: 110px;
+  font-size: 30px;
   color: black;
-  font-family: 'Poppins',Sans-Serif;
+  font-family: 'arial',Sans-Serif;
 }
 
 #sobremim p {
