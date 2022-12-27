@@ -191,15 +191,15 @@ form button:hover {
 }
 
 .container .card:nth-child(1):before {
-  background: #691748;
+  background: #BF705E;
 }
 
 .container .card:nth-child(2):before {
-  background: #dfc5c6;
+  background: #BF705E;
 }
 
 .container .card:nth-child(3):before {
-  background: #f7e9e8;
+  background: #BF705E;
 }
 
 .container .card div {
