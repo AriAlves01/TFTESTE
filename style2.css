@@ -148,6 +148,33 @@ form button:hover {
   padding-left: 15px;
 }
 
+
+/* yyy */
+.contatowhatsapp{
+text-align:center;
+}
+.contatowhatsapp a {
+  background: white;
+  color: #e65b00;
+  border: 1px solid #e65b00;
+  padding: 15px;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  margin: 20px auto 0;
+  border-radius: 30px;
+  transition: all .5s ease-in;
+  
+}
+
+.contatowhatsapp a:hover {
+  border: 1px solid #e65b00;
+  background: #e65b00;
+  color: white;
+}
+
 /* Fim Contato */
 
 /* INICIOOOOOOOOOO CARDHOUVER */
